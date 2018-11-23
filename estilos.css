@@ -1,0 +1,330 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	background-color: #eaeaea;
+}
+
+/*header {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 46px;
+    border-bottom: 1px solid #d0d0d0;
+    position: fixed;
+    z-index: 9;
+}*/
+
+.portada_perfil{
+	background-color: #000;
+	padding: 0;
+	overflow: hidden;
+    max-height: 370px;
+}
+
+.portada_perfil__img_portada{
+	width: 100%;
+}
+
+.portada_perfil__estadisticas{
+	background-color: #fff;
+	padding: 10px 20px 0 20px;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+}
+
+.portada_perfil__img_perfil{
+	text-align: center;
+}
+
+.portada_perfil__img_perfil img{
+	background-color: #fff;
+	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -141px;
+}
+
+.contenedor_perfil{
+    padding: 0 20px 20px;
+    margin-top: 20px;
+}
+
+.contenedor_perfil__post{
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.portada_perfil__img_perfil__cambio_img{
+	font-size: 27px;
+    left: 55px;
+    top: -17px;
+    cursor: pointer;
+    color: #313131;
+}
+
+.portada_perfil__img_perfil__cambio_img:hover{
+	opacity: 0.7;
+}
+
+.portada_perfil__img_perfil__cambio_portada{
+	font-size: 35px;
+    right: 55px;
+    top: 57px;
+    color: #b9b9b9;
+    position: absolute;
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.portada_perfil__img_perfil__cambio_portada:hover{
+    opacity: 0.4;
+}
+
+.contenedor_perfil__info h2{
+	margin-top: 0;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: #3484bd;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#txt_mensaje{
+	width: 100%;
+	border-radius: 10px;
+	height: 130px;
+	border: none;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#btn_enviar_mensaje{
+	width: 100%;
+    background-color: #3485bc;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btn_enviar_mensaje:hover{
+	opacity: 0.7;
+}
+
+.contenedor_perfil__info{
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.contenedor_perfil__info label{
+    width: 100%;
+}
+
+.contenedor_perfil__info h2 span{
+	margin-left: 2px;
+}
+
+#tweet__img{
+	border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.portada_perfil__img_perfil h2{
+	font-size: 21px;
+    font-weight: 800;
+    margin: 5px 0 20px 0;
+    color: #3a3a3a;
+}
+
+.contenedor_perfil__info h4{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.contenedor_perfil__info p{
+	margin-bottom: 20px;
+}
+
+.edit_nombre{
+	margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.edit_nombre:hover{
+   	opacity: 0.7;
+}
+
+
+.tweet{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #eaeaea;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+}
+
+.tweet a{
+	display: inline-block;
+    font-weight: 800;
+    margin-top: 0;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.tweet a span{
+   	font-weight: 400;
+    display: block;
+    font-size: 14px;
+    color: #868686;
+    text-decoration: none;
+}
+
+.tweet a span:hover{
+    text-decoration: none;
+}
+.portada_perfil__img_perfil label {
+    display: initial;
+    margin-bottom: 5px;
+    font-weight: 700;
+    position: relative;
+    top: 27px;
+}
+
+.portada_perfil label{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#cambio_nombre{
+	font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.btn_cambio_nombre{
+	font-size: 15px;
+    background-color: #3485bc;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.btn_cambio_nombre:hover{
+	opacity: 0.7;
+}
+
+#imagen_perfil, #imagen_portada{
+    color: #3484c3;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.select__img-portada{
+    text-align: right;
+}
+
+.tweet p{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0 25px 0;
+}
+
+.tweet__social{
+    text-align: right;
+    padding: 10px 10px 0 10px;
+    background-color: #eaeaea;
+    border-top: 1px dashed #c7c7c7;
+}
+
+.tweet__social .tweet__social_icon_like{
+    color: #b1b1b3;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tweet__social .tweet__social_icon_like:hover{
+    color: #ff0000
+}
+
+.tweet__social .tweet__social_icon_like--like{
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tweet__social_contador{
+    color: #929292;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+
+.tweet__btn-elimina-tweet .tweet__icon_elimina-tweet{
+    font-size: 20px;
+    color: #808080;
+}
+
+.tweet__btn-elimina-tweet{
+    float: right;
+    cursor: pointer;
+}
+
+.tweet__btn-elimina-tweet:hover{
+    opacity: 0.7;
+}
+
+.tweet__portada_perfil__img_portada{
+    border-radius: inherit;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.contenedor_perfil__post--no_tweets h2{
+    margin: 0;
+    color: #3484bd;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px){
+	.contenedor_perfil__info{
+		padding: 0 15px;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 768px){
+    .portada_perfil__img_perfil img {
+        width: 120px;
+        height: 120px;
+        top: -100px;
+    }
+
+    .contenedor_perfil__info h4 {
+        text-align: center;
+    }
+}
